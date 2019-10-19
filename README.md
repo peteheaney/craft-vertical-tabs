@@ -10,7 +10,11 @@ This plugin requires Craft CMS 3.0.0-beta.23 or later.
 
 ## Installation
 
-To install the plugin, follow these instructions.
+### From the Plugin Store
+
+Go to the Plugin Store in the Craft Control Panel and search for “Vertical Tabs”. Click on it, then click the “Install” button.
+
+### With Composer
 
 1. Open your terminal and go to your Craft project:
 
