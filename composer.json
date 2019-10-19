@@ -1,0 +1,40 @@
+{
+    "name": "peteheaney/craft-vertical-tabs",
+    "description": "Replace the Craft CP's horizontal tabs with vertical tabs.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "vertical tabs"
+    ],
+    "support": {
+        "docs": "https://github.com/peteheaney/craft-vertical-tabs/blob/master/README.md",
+        "issues": "https://github.com/peteheaney/craft-vertical-tabs/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pete Heaney",
+            "homepage": "https://www.peteheaney.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+            "peteheaney\\verticaltabs\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Vertical Tabs",
+        "handle": "vertical-tabs",
+        "hasCpSettings": true,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/peteheaney/craft-vertical-tabs/master/CHANGELOG.md",
+        "class": "peteheaney\\verticaltabs\\VerticalTabs"
+    }
+}

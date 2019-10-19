@@ -1,0 +1,36 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Vertical Tabs plugin for Craft CMS 3.x
+ *
+ * Vertical Tabs Settings.twig
+ *
+ * @author    Pete Heaney
+ * @copyright Copyright (c) 2019 Pete Heaney
+ * @link      https://www.peteheaney.com
+ * @package   VerticalTabs
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+<p>Select which element types you would like to enable vertical tabs for:</p>
+
+{{ forms.lightswitchField({
+    label: 'Entries',
+    name: 'vtEntries',
+    on: settings.vtEntries == '1' ? true : false
+}) }}
+
+{{ forms.lightswitchField({
+    label: 'Categories',
+    name: 'vtCategories',
+    on: settings.vtCategories == '1' ? true : false
+}) }}
+
+{{ forms.lightswitchField({
+    label: 'Users',
+    name: 'vtUsers',
+    on: settings.vtUsers == '1' ? true : false
+}) }}

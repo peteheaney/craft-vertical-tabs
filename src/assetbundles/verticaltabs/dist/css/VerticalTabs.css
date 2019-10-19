@@ -1,0 +1,71 @@
+/**
+ * Vertical Tabs plugin for Craft CMS
+ *
+ * Vertical Tabs CSS
+ *
+ * @author    Pete Heaney
+ * @copyright Copyright (c) 2019 Pete Heaney
+ * @link      https://www.peteheaney.com
+ * @package   VerticalTabs
+ * @since     1.0.0
+ */
+@media only screen and (min-width: 750px) {
+    #main-container #main #main-content #content-container {
+        flex-direction: row;
+    }
+
+    #main-container #main #main-content #content-container #tabs {
+        margin: 0;
+        background: #fbfcfd;
+        box-shadow: inset -1px 0 0 #e3e5e8;
+        padding: 14px 0 48px 0;
+        z-index: 0;
+    }
+
+    #main-container #main #main-content #content-container #tabs ul {
+        flex-direction: column;
+        width: 225px;
+    }
+
+    #main-container #main #main-content #content-container #tabs ul li {
+        max-width: 100% !important;
+    }
+
+    #main-container #main #main-content #content-container #tabs ul li a {
+        white-space: normal;
+        overflow: visible;
+        transition: background-color linear 100ms;
+    }
+
+    #main-container #main #main-content #content-container #tabs ul li a:hover {
+        background: rgba(41, 50, 61, 0.05);
+        color: #29323d;
+    }
+
+    #main-container #main #main-content #content-container #tabs ul li a:after {
+        display: none;
+    }
+
+    #main-container #main #main-content #content-container #tabs ul li a.sel {
+        margin: 0;
+        border: 0;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background: #737f8c;
+        color: #fff;
+        border-radius: 0;
+    }
+
+    #main-container #main #main-content #content-container #tabs ul li a.sel:before,
+    #main-container #main #main-content #content-container #tabs ul li a.sel:after {
+        display: none;
+    }
+
+    #main-container #main #main-content #content-container #tabs ul li a:not(.sel) {
+        color: #29323d;
+    }
+
+    #main-container #main #main-content #content-container #tabs ul li a:not(.sel):hover {
+        color: #29323d;
+    }
+}
