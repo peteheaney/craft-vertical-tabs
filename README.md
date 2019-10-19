@@ -22,7 +22,7 @@ To install the plugin, follow these instructions.
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Vertical Tabs.
 
-***
+---
 
 ## Overview
 
@@ -30,10 +30,10 @@ This plugin allows you to replace Craft's default horizontal tabs with vertical 
 
 ![Preview](resources/img/preview.png)
 
-***
+---
 
 ## Configuration
 
 Once the plugin is installed, it will be enabled for Entries, Categories and Users. If you'd like to disable it for certain Element types, go to Settings and, under Plugins, click on Vertical Tabs. You can then enable/disable Vertical Tabs as desired.
 
-![Settings](resources/img/preview.png)
+![Settings](resources/img/settings.png)
