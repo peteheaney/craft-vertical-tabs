@@ -1,6 +1,6 @@
 {
     "name": "peteheaney/craft-vertical-tabs",
-    "description": "Replace the Craft CP's horizontal tabs with vertical tabs.",
+    "description": "Replace the Craft Control Panel's horizontal tabs with vertical tabs.",
     "type": "craft-plugin",
     "version": "1.0.0",
     "keywords": [

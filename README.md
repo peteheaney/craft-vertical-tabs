@@ -1,6 +1,6 @@
 # Vertical Tabs plugin for Craft CMS 3.x
 
-Replace the Craft CP's horizontal tabs with vertical tabs.
+Replace the Craft Control Panel's horizontal tabs with vertical tabs.
 
 ![Vertical Tabs logo](resources/img/plugin-logo.png)
 
