@@ -1,3 +1,9 @@
+```diff
+-----------------------------------------------------------------------------------------
+- As of Craft version 3.4, this plugin will no longer work. It is therefore deprecated. -
+-----------------------------------------------------------------------------------------
+```
+
 # Vertical Tabs plugin for Craft CMS 3.x
 
 Replace the Craft Control Panel's horizontal tabs with vertical tabs.
